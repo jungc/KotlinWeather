@@ -35,9 +35,4 @@ interface LandingView : LocationUpdateListener {
      * The View should be able to determine the users location
      */
     fun getUsersLocation()
-
-    /**
-     * This View should make a new weather request
-     */
-    fun onRefresh()
 }
